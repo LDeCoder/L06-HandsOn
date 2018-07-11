@@ -1,0 +1,28 @@
+  .table {
+    border: 2px red dashed;
+  }
+
+.jumbotron  {
+  color: blueviolet;
+    background-color: black;
+  }
+
+  .Fish1 {
+    color: black;
+    background-color: lightblue;
+  }
+
+  .Fish2 {
+    color: black;
+    background-color: aqua;
+  }
+
+  .Fish3 {
+    color: black;
+    background-color: turquoise;
+  }
+
+  .Fish4 {
+    color black;
+    background-color: green;
+  }

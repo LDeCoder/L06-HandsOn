@@ -2,20 +2,143 @@
 <html>
 
 <head>
-    <title>Basic Bootstrap Template</title>
+    <title>BootstrapLesDoThis!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+    <nav class="navbar navbar-stacked">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a><img src="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/LD.logo.png"></a>
+          </div>
+     
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><href="L06-HandsOn/LD-logoBIG.png">Click ME!<span class="sr-only">(current)</span></a></li> -->
+              
+              <li><a href="/Users/loridavis/Desktop/Bootstrap Website/images/4.jpg"><button type="button" class="btn btn-link">Made a friend in Cabo</button></a></li>
+
+              
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">See some pics! <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/2.jpg">That's us!</a></li>
+                  <li><a href="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/10.jpg">Fishing Boat</a></li>
+                  <li><a href="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/3.jpg">He caught one!</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/7.jpg">So did I!</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/6.jpg">...at the same time!</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="TrashcanSearchBar?">               <button type="submit" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-trash"></span> Search</button> 
+                    </div>
+            
+            </form>
+           
+          </div>
+        </div>
+      </nav>
+
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">WELCOME</h1>
+        <img src="/Users/loridavis/Desktop/PROJECT/FRONT END FOUNDATIONS/L06-HandsOn/LD-logoBIG.png">
+        </div> 
+              <h2>Click around - have a little fun!</h2>
+              <button type="button" class="btn btn-dark" onclick= "alert('One day.....One glorious day coding will all make sense!')">Are you with me?!?</button>
+
+            </div>
+          </div>
+
+<div class = container>  
+
+  </div>
+  <form>
+      <div class="form-group">
+          <div class= col-md-6> 
+              <input type="text" class="form-control" placeholder="First name">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="col">
+              <input class="form-control" placeholder="Phone number">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+
+              <button type="button" class="btn btn-dark">SUBMIT NOW!</button>
+            </div>
+          </div>
+        
+        </form>
+     
+      </div>
+
+
+
+    <div class = col-md-6> 
+    <table class="table table-hover">
+        <thead>
+            <tr class="active">
+                <th>Place</th>
+                <th>Catch</th>
+                <th>Fish Name</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="Fish1">
+                <td>4th</td>
+                <td>Big Fish</td>
+                <td>Roosterfish</td>
+                <td>19 pounds</td>
+            </tr>
+            <tr class="Fish2">
+                <td>3rd</td>
+                <td>Bigger Fish</td>
+                <td>Grouper</td>
+                <td>100 pounds</td>
+            </tr>
+            <tr class="Fish3">
+                <td>2nd</td>
+                <td>Biggest Fish</td>
+                <td>Marlin</td>
+                <td>650 pounds!</td>
+            </tr>
+            <tr class="Fish4">
+                    <td>1st</td>
+                    <td>Massive Fish</td>
+                    <td>Whaleshark</td>
+                    <td>TONS!</td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
-
